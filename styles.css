@@ -1,112 +1,99 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #0b0b0b;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
   color: #fff;
-  text-align: center;
+}
+
+a {
+  color: #00ffd5;
+  text-decoration: none;
 }
 
 header {
-  background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png'), radial-gradient(circle at center, #1e1e2f, #000);
-  padding: 3rem 1rem;
-}
-
-header h1 {
-  font-size: 3rem;
-  color: #ffffff;
-  margin-bottom: 0.5rem;
-}
-
-header p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.buttons {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.btn {
-  padding: 0.8rem 1.4rem;
-  border-radius: 8px;
-  text-decoration: none;
-  color: white;
+.logo {
+  font-size: 1.8rem;
   font-weight: bold;
-  transition: 0.3s;
+  color: #00ffd5;
 }
 
-.btn.whatsapp {
-  background-color: #25D366;
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
 }
 
-.btn.instagram {
-  background-color: #9b59b6;
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #141414, #1e1e1e);
 }
 
-.btn:hover {
-  opacity: 0.85;
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
 }
 
 .productos {
-  padding: 2rem 1rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: #111;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-  margin-top: 1rem;
+.productos h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-.card {
-  background-color: #1e1e2f;
+.producto {
+  margin-bottom: 2rem;
+}
+
+.producto img {
+  width: 200px;
+  height: auto;
   border-radius: 12px;
-  padding: 1.2rem;
-  width: 220px;
+  box-shadow: 0 0 10px #000;
 }
 
-.vape {
-  height: 100px;
+.producto h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.producto p {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.contacto {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contacto h2 {
   margin-bottom: 1rem;
-  border-radius: 10px;
-}
-
-.sandia {
-  background-color: red;
-}
-
-.pina {
-  background-color: orange;
-}
-
-.manzana {
-  background-color: limegreen;
-}
-
-.entregas, .sobre {
-  padding: 2rem 1rem;
-  background-color: #121212;
-}
-
-.entregas ul {
-  list-style: none;
-  padding: 0;
-}
-
-.entregas li {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
 }
 
 footer {
-  padding: 1rem;
   background-color: #000;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #666;
 }
